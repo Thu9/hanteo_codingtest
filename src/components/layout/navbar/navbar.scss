@@ -1,0 +1,22 @@
+/* navbar section */
+.navbar-section {
+  width: 100%;
+  min-height: 40px;
+  background-color: $hanteo-pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.navbar-section > div {
+  cursor: pointer;
+}
+
+.navbar-section .active p {
+  color: $white;
+}
+
+.navbar-section p:hover {
+  color: $white;
+}

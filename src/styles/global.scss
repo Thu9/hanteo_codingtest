@@ -1,0 +1,14 @@
+@import './reset.scss';
+
+@font-face {
+  font-family: 'Pretendard Variable';
+  src: url('./assets/fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+
+body {
+  font-family: 'Pretendard Variable';
+  padding: 0;
+  background-color: $white;
+  margin: auto;
+  max-width: 425px;
+}

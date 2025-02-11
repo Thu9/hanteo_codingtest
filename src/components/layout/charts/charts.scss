@@ -1,0 +1,54 @@
+.charts-section {
+  background-color: $chart-background;
+  width: 100%;
+  height: 560px;
+  padding: 32px 16px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+/*ChartItem component*/
+.charts-item {
+  display: flex;
+  align-items: center;
+  background-color: $white;
+  margin-top: 16px;
+  border-radius: 6px;
+  user-select: none;
+
+  .img-wrapper {
+    height: 52px;
+    width: 52px;
+    flex-shrink: 0;
+    background-color: $chart-image;
+    border-radius: 6px;
+    overflow: hidden;
+
+    > img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    .rank-container {
+      width: 52px;
+      text-align: center;
+    }
+
+    .score-container {
+      margin-left: auto;
+      margin-right: 16px;
+    }
+  }
+}
+
+.charts-item:first-child {
+  margin-top: 0;
+}
